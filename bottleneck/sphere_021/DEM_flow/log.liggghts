@@ -1,0 +1,194 @@
+LIGGGHTS (Version LIGGGHTS-PUBLIC 3.8.0, compiled 2025-03-29-16:28:11 by bd8619, git commit 3d5c00f20519e6bb6eb6756f51f1ad36564e649d)
+units si
+hard_particles yes
+dimension 3
+atom_style sphere
+atom_modify map array
+boundary f f p 
+newton off
+communicate single vel yes
+processors * * *
+restart 5000 restart/restart.binary
+region domain block -0.001 0.001 -0.001 0.001 -0.0005 0.003  units box volume_limit 1e-20
+create_box 3 domain
+Created orthogonal box = (-0.001 -0.001 -0.0005) to (0.001 0.001 0.003)
+  1 by 1 by 1 MPI processor grid
+pair_style  gran model hooke tangential history cohesion sjkr tangential_damping on ktToKnUser on limitForce on
+pair_coeff * *
+neighbor 0.0002 bin
+neigh_modify delay 0 every 10 check yes
+group group0 type 1
+0 atoms in group group0
+fix 80732377 group0 particletemplate/sphere 15485867 volume_limit 1e-20 atom_type 1 density constant 1000.0 radius constant 5e-05
+fix pdd20348357 group0 particledistribution/discrete/numberbased 67867967 1 80732377 1.0
+fix myGravity all gravity 9.81 vector 0 0 -1
+fix ts_check all check/timestep/gran 1000 0.5 0.5
+fix sphere_574286 group0 nve/sphere
+fix hopper all mesh/surface file /home/bd8619/fluids/bottleneck/sphere_3/mesh/silo.stl type 2 scale 0.001 
+fix sphere all mesh/surface file /home/bd8619/fluids/bottleneck/sphere_3/mesh/sphere.stl type 3 heal auto_remove_duplicates move 0 0 2.1 scale 0.000275 
+fix walls all wall/gran model hooke tangential history cohesion sjkr mesh n_meshes 2 meshes hopper  sphere 
+dump dump  all custom/vtk 1000 traj/particles*.vtk id  type  x  y  z  radius  vx  vy  vz  fx  fy  fz 
+dump_modify dump  append  yes 
+dump dump80621564 all mesh/vtk 1000 traj/mesh*.vtk id stress stresscomponents vel hopper sphere
+fix youngsModulus all property/global youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+fix poissonsRatio all property/global poissonsRatio peratomtype 0.25 0.24 0.24
+fix coefficientFriction all property/global coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+fix coefficientRollingFriction all property/global coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+fix cohesionEnergyDensity all property/global cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+fix coefficientRestitution all property/global coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+fix coefficientRollingViscousDamping all property/global coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+fix yieldPress all property/global yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+fix characteristicVelocity all property/global characteristicVelocity scalar 0.1 0.1 0.1
+thermo_style custom time dt atoms
+thermo 10000
+thermo_modify norm no lost ignore
+fix 25914759 all wall/gran model hooke tangential history cohesion sjkr primitive type 1 zplane 0.0
+region 6817518 block -0.0005 0.0005 -0.0005 0.0005 0.002 0.003 units box volume_limit 1e-20
+fix insert112177 group0 insert/pack seed 40018543 distributiontemplate pdd20348357 insert_every 10000.0 overlapcheck yes all_in yes vel constant 0 0 0 volumefraction_region 1 region 6817518 ntry_mc 10000
+timestep 1e-06
+run 100000.0
+Setting up run at Fri Apr 11 09:01:19 2025
+
+INFO: Particle insertion insert112177: inserting every 10000 steps
+Memory usage per processor = 9.22702 Mbytes
+          Time             Dt    Atoms 
+             0          1e-06        0 
+INFO: Particle insertion insert112177: inserted 550 particle templates (mass 2.879793e-07) at step 1
+ - a total of 550 particle templates (mass 2.879793e-07) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+          0.01          1e-06      550 
+INFO: Particle insertion insert112177: inserted 286 particle templates (mass 1.497492e-07) at step 10001
+ - a total of 836 particle templates (mass 4.377286e-07) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+          0.02          1e-06      836 
+INFO: Particle insertion insert112177: inserted 295 particle templates (mass 1.544616e-07) at step 20001
+ - a total of 1131 particle templates (mass 5.921902e-07) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+          0.03          1e-06     1131 
+INFO: Particle insertion insert112177: inserted 297 particle templates (mass 1.555088e-07) at step 30001
+ - a total of 1428 particle templates (mass 7.476991e-07) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+          0.04          1e-06     1428 
+INFO: Particle insertion insert112177: inserted 299 particle templates (mass 1.565560e-07) at step 40001
+ - a total of 1727 particle templates (mass 9.042551e-07) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+          0.05          1e-06     1727 
+INFO: Particle insertion insert112177: inserted 295 particle templates (mass 1.544616e-07) at step 50001
+ - a total of 2022 particle templates (mass 1.058717e-06) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+          0.06          1e-06     2022 
+INFO: Particle insertion insert112177: inserted 290 particle templates (mass 1.518436e-07) at step 60001
+ - a total of 2312 particle templates (mass 1.210560e-06) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+          0.07          1e-06     2312 
+INFO: Particle insertion insert112177: inserted 278 particle templates (mass 1.455605e-07) at step 70001
+ - a total of 2590 particle templates (mass 1.356121e-06) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+          0.08          1e-06     2590 
+INFO: Particle insertion insert112177: inserted 244 particle templates (mass 1.277581e-07) at step 80001
+ - a total of 2834 particle templates (mass 1.483879e-06) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+          0.09          1e-06     2834 
+INFO: Particle insertion insert112177: inserted 208 particle templates (mass 1.089085e-07) at step 90001
+ - a total of 3042 particle templates (mass 1.592787e-06) inserted so far.
+WARNING: Particle insertion: Less insertions than requested (../fix_insert.cpp:814)
+           0.1          1e-06     3042 
+Loop time of 220.002 on 1 procs for 100000 steps with 3042 atoms, finish time Fri Apr 11 09:04:46 2025
+
+
+Pair  time (%) = 98.8643 (44.938)
+Neigh time (%) = 0.425262 (0.193299)
+Comm  time (%) = 0.368527 (0.167511)
+Outpt time (%) = 1.63328 (0.742396)
+Other time (%) = 118.71 (53.9588)
+
+Nlocal:    3042 ave 3042 max 3042 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    4 ave 4 max 4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    148120 ave 148120 max 148120 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 148120
+Ave neighs/atom = 48.6917
+Neighbor list builds = 118
+Dangerous builds = 0
+unfix insert112177
+unfix 25914759
+timestep 1e-06
+run 500000.0
+Setting up run at Fri Apr 11 09:04:46 2025
+
+Memory usage per processor = 16.2857 Mbytes
+          Time             Dt    Atoms 
+           0.1          1e-06     3042 
+          0.11          1e-06     3042 
+          0.12          1e-06     3042 
+          0.13          1e-06     3042 
+          0.14          1e-06     3042 
+          0.15          1e-06     3042 
+          0.16          1e-06     3042 
+          0.17          1e-06     3042 
+          0.18          1e-06     3042 
+          0.19          1e-06     3042 
+           0.2          1e-06     3042 
+          0.21          1e-06     3042 
+          0.22          1e-06     3042 
+          0.23          1e-06     3042 
+          0.24          1e-06     3042 
+          0.25          1e-06     3042 
+          0.26          1e-06     3042 
+          0.27          1e-06     3042 
+          0.28          1e-06     3042 
+          0.29          1e-06     3042 
+           0.3          1e-06     3042 
+          0.31          1e-06     3042 
+          0.32          1e-06     3042 
+          0.33          1e-06     3042 
+          0.34          1e-06     3042 
+          0.35          1e-06     3042 
+          0.36          1e-06     3042 
+          0.37          1e-06     3042 
+          0.38          1e-06     3042 
+          0.39          1e-06     3042 
+           0.4          1e-06     3042 
+          0.41          1e-06     3042 
+          0.42          1e-06     3042 
+          0.43          1e-06     3042 
+          0.44          1e-06     3042 
+          0.45          1e-06     3042 
+          0.46          1e-06     3042 
+          0.47          1e-06     3042 
+          0.48          1e-06     3042 
+          0.49          1e-06     3042 
+           0.5          1e-06     3042 
+          0.51          1e-06     3042 
+          0.52          1e-06     3042 
+          0.53          1e-06     3042 
+          0.54          1e-06     3042 
+          0.55          1e-06     3042 
+          0.56          1e-06     3042 
+          0.57          1e-06     3042 
+          0.58          1e-06     3042 
+          0.59          1e-06     3042 
+           0.6          1e-06     3042 
+Loop time of 2247.93 on 1 procs for 500000 steps with 3042 atoms, finish time Fri Apr 11 09:39:56 2025
+
+
+Pair  time (%) = 1438.68 (64.0001)
+Neigh time (%) = 6.28205 (0.27946)
+Comm  time (%) = 2.95783 (0.13158)
+Outpt time (%) = 11.5175 (0.512363)
+Other time (%) = 788.493 (35.0765)
+
+Nlocal:    3042 ave 3042 max 3042 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    16 ave 16 max 16 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    152543 ave 152543 max 152543 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 152543
+Ave neighs/atom = 50.1456
+Neighbor list builds = 795
+Dangerous builds = 0

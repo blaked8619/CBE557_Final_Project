@@ -1,0 +1,51 @@
+LIGGGHTS (Version LIGGGHTS-PUBLIC 3.8.0, compiled 2025-03-29-16:28:11 by bd8619, git commit 3d5c00f20519e6bb6eb6756f51f1ad36564e649d)
+units si
+hard_particles yes
+dimension 3
+atom_style sphere
+atom_modify map array
+boundary f f p 
+newton off
+communicate single vel yes
+processors * * *
+restart 5000 restart/restart.binary
+region domain block -0.001 0.001 -0.001 0.001 -0.009 0.003  units box volume_limit 1e-20
+create_box 3 domain
+Created orthogonal box = (-0.001 -0.001 -0.009) to (0.001 0.001 0.003)
+  1 by 1 by 1 MPI processor grid
+pair_style  gran model hooke tangential history cohesion sjkr tangential_damping on ktToKnUser on limitForce on
+pair_coeff * *
+neighbor 0.0002 bin
+neigh_modify delay 0 every 10 check yes
+group group0 type 1
+0 atoms in group group0
+fix 64369142 group0 particletemplate/sphere 15485867 volume_limit 1e-20 atom_type 1 density constant 1000.0 radius constant 5e-05
+fix pdd67581794 group0 particledistribution/discrete/numberbased 67867967 1 64369142 1.0
+fix myGravity all gravity 9.81 vector 0 0 -1
+fix ts_check all check/timestep/gran 1000 0.5 0.5
+fix sphere_489753 group0 nve/sphere
+fix hopper all mesh/surface file /home/bd8619/fluids/tube_test/mesh/silo.stl type 2 scale 0.001 
+fix tube all mesh/surface file /home/bd8619/fluids/tube_test/mesh/tube.stl type 3 move 0 0 -50.0 scale 3.7e-05 
+fix walls all wall/gran model hooke tangential history cohesion sjkr mesh n_meshes 2 meshes hopper  tube 
+dump dump  all custom/vtk 1000 traj/particles*.vtk id  type  x  y  z  radius  vx  vy  vz  fx  fy  fz 
+dump_modify dump  append  yes 
+dump dump47118955 all mesh/vtk 1000 traj/mesh*.vtk id stress stresscomponents vel hopper tube
+fix youngsModulus all property/global youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+fix poissonsRatio all property/global poissonsRatio peratomtype 0.25 0.24 0.24
+fix coefficientFriction all property/global coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+fix coefficientRollingFriction all property/global coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+fix cohesionEnergyDensity all property/global cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+fix coefficientRestitution all property/global coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+fix coefficientRollingViscousDamping all property/global coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+fix yieldPress all property/global yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+fix characteristicVelocity all property/global characteristicVelocity scalar 0.1 0.1 0.1
+thermo_style custom time dt atoms
+thermo 10000
+thermo_modify norm no lost ignore
+fix 17622251 all wall/gran model hooke tangential history cohesion sjkr primitive type 1 zplane 0.0
+region 68587900 block -0.0005 0.0005 -0.0005 0.0005 0.002 0.003 units box volume_limit 1e-20
+fix insert754921 group0 insert/pack seed 894343 distributiontemplate pdd67581794 insert_every 10000.0 overlapcheck yes all_in yes vel constant 0 0 0 volumefraction_region 1 region 68587900 ntry_mc 10000
+timestep 1e-06
+run 100000.0
+Setting up run at Thu Apr 10 12:04:51 2025
+

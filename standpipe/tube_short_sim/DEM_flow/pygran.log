@@ -1,0 +1,390 @@
+2025-04-10 11:44:56,115:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 11:44:56,134:INFO: Working in /home/bd8619/fluids/tube_test/DEM_flow
+2025-04-10 11:44:56,134:INFO: Creating i/o directories
+2025-04-10 11:44:56,134:INFO: Instantiated DEMPy object
+2025-04-10 11:44:56,134:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 11:44:56,135:INFO: Setting up problem dimensions and boundaries
+2025-04-10 11:44:56,135:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 11:44:56,135:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 11:44:56,135:INFO: Using 1 cores per simulation
+2025-04-10 11:44:56,135:DEBUG: Attempting to backup fitting_test.py file
+2025-04-10 11:44:56,135:INFO: Creating domain
+2025-04-10 11:44:56,136:INFO: Setting up interaction parameters
+2025-04-10 11:44:56,136:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 11:44:56,136:INFO: Setting up particles for group1
+2025-04-10 11:44:56,137:INFO: Setting up integration scheme parameters
+2025-04-10 11:44:56,137:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/silo.stl
+2025-04-10 11:44:56,140:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/tube.stl
+2025-04-10 11:44:56,142:INFO: Setting up trajectory i/o
+2025-04-10 11:44:56,142:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 11:44:56,143:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 11:44:56,143:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 11:44:56,143:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 11:44:56,143:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 11:44:56,143:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 11:44:56,143:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 11:44:56,143:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 11:44:56,143:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 11:44:56,143:INFO: Setting up printing options
+2025-04-10 11:44:56,143:INFO: Setting up integration scheme parameters
+2025-04-10 11:44:56,143:INFO: Integrating the system for 100000.0 steps
+2025-04-10 11:44:56,840:INFO: Setting up integration scheme parameters
+2025-04-10 11:44:56,840:INFO: Integrating the system for 10000.0 steps
+2025-04-10 11:46:32,341:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 11:46:32,360:INFO: Working in /home/bd8619/fluids/tube_test/DEM_flow
+2025-04-10 11:46:32,360:INFO: Creating i/o directories
+2025-04-10 11:46:32,360:INFO: Instantiated DEMPy object
+2025-04-10 11:46:32,360:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 11:46:32,360:INFO: Setting up problem dimensions and boundaries
+2025-04-10 11:46:32,360:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 11:46:32,360:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 11:46:32,360:INFO: Using 1 cores per simulation
+2025-04-10 11:46:32,360:DEBUG: Attempting to backup fitting_test.py file
+2025-04-10 11:46:32,361:INFO: Creating domain
+2025-04-10 11:46:32,361:INFO: Setting up interaction parameters
+2025-04-10 11:46:32,361:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 11:46:32,362:INFO: Setting up particles for group1
+2025-04-10 11:46:32,362:INFO: Setting up integration scheme parameters
+2025-04-10 11:46:32,362:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/silo.stl
+2025-04-10 11:46:32,365:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/tube.stl
+2025-04-10 11:46:32,368:INFO: Setting up trajectory i/o
+2025-04-10 11:46:32,369:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 11:46:32,369:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 11:46:32,369:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 11:46:32,369:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 11:46:32,369:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 11:46:32,369:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 11:46:32,369:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 11:46:32,369:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 11:46:32,369:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 11:46:32,369:INFO: Setting up printing options
+2025-04-10 11:46:32,369:INFO: Setting up integration scheme parameters
+2025-04-10 11:46:32,369:INFO: Integrating the system for 100000.0 steps
+2025-04-10 11:46:33,086:INFO: Setting up integration scheme parameters
+2025-04-10 11:46:33,087:INFO: Integrating the system for 10000.0 steps
+2025-04-10 11:47:49,419:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 11:47:49,438:INFO: Working in /home/bd8619/fluids/tube_test/DEM_flow
+2025-04-10 11:47:49,438:INFO: Creating i/o directories
+2025-04-10 11:47:49,438:INFO: Instantiated DEMPy object
+2025-04-10 11:47:49,438:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 11:47:49,438:INFO: Setting up problem dimensions and boundaries
+2025-04-10 11:47:49,438:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 11:47:49,438:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 11:47:49,438:INFO: Using 1 cores per simulation
+2025-04-10 11:47:49,438:DEBUG: Attempting to backup test.py file
+2025-04-10 11:47:49,439:INFO: Creating domain
+2025-04-10 11:47:49,439:INFO: Setting up interaction parameters
+2025-04-10 11:47:49,439:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 11:47:49,439:INFO: Setting up particles for group1
+2025-04-10 11:47:49,439:INFO: Setting up integration scheme parameters
+2025-04-10 11:47:49,439:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/silo.stl
+2025-04-10 11:47:49,442:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/tube.stl
+2025-04-10 11:47:49,445:INFO: Setting up trajectory i/o
+2025-04-10 11:47:49,445:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 11:47:49,445:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 11:47:49,445:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 11:47:49,445:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 11:47:49,445:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 11:47:49,445:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 11:47:49,445:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 11:47:49,446:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 11:47:49,446:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 11:47:49,446:INFO: Setting up printing options
+2025-04-10 11:47:49,446:INFO: Inserting particles for species 1
+2025-04-10 11:47:49,446:INFO: Setting up integration scheme parameters
+2025-04-10 11:47:49,446:INFO: Integrating the system for 100000.0 steps
+2025-04-10 11:49:04,709:INFO: Setting up integration scheme parameters
+2025-04-10 11:49:04,709:INFO: Integrating the system for 1000000.0 steps
+2025-04-10 11:51:30,326:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 11:51:30,346:INFO: Working in /home/bd8619/fluids/tube_test/DEM_flow
+2025-04-10 11:51:30,346:INFO: Creating i/o directories
+2025-04-10 11:51:30,346:INFO: Instantiated DEMPy object
+2025-04-10 11:51:30,346:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 11:51:30,347:INFO: Setting up problem dimensions and boundaries
+2025-04-10 11:51:30,347:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 11:51:30,347:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 11:51:30,347:INFO: Using 1 cores per simulation
+2025-04-10 11:51:30,347:DEBUG: Attempting to backup fitting_test.py file
+2025-04-10 11:51:30,347:INFO: Creating domain
+2025-04-10 11:51:30,348:INFO: Setting up interaction parameters
+2025-04-10 11:51:30,348:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 11:51:30,348:INFO: Setting up particles for group1
+2025-04-10 11:51:30,348:INFO: Setting up integration scheme parameters
+2025-04-10 11:51:30,348:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/silo.stl
+2025-04-10 11:51:30,352:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/tube.stl
+2025-04-10 11:51:30,355:INFO: Setting up trajectory i/o
+2025-04-10 11:51:30,355:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 11:51:30,355:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 11:51:30,355:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 11:51:30,355:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 11:51:30,355:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 11:51:30,355:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 11:51:30,355:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 11:51:30,355:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 11:51:30,355:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 11:51:30,355:INFO: Setting up printing options
+2025-04-10 11:51:30,355:INFO: Setting up integration scheme parameters
+2025-04-10 11:51:30,355:INFO: Integrating the system for 100000.0 steps
+2025-04-10 11:51:31,066:INFO: Setting up integration scheme parameters
+2025-04-10 11:51:31,067:INFO: Integrating the system for 10000.0 steps
+2025-04-10 11:52:48,121:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 11:52:48,144:INFO: Working in /home/bd8619/fluids/tube_test/DEM_flow
+2025-04-10 11:52:48,144:INFO: Creating i/o directories
+2025-04-10 11:52:48,144:INFO: Instantiated DEMPy object
+2025-04-10 11:52:48,144:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 11:52:48,144:INFO: Setting up problem dimensions and boundaries
+2025-04-10 11:52:48,144:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 11:52:48,144:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 11:52:48,144:INFO: Using 1 cores per simulation
+2025-04-10 11:52:48,144:DEBUG: Attempting to backup fitting_test.py file
+2025-04-10 11:52:48,145:INFO: Creating domain
+2025-04-10 11:52:48,146:INFO: Setting up interaction parameters
+2025-04-10 11:52:48,146:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 11:52:48,146:INFO: Setting up particles for group1
+2025-04-10 11:52:48,146:INFO: Setting up integration scheme parameters
+2025-04-10 11:52:48,146:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/silo.stl
+2025-04-10 11:52:48,149:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/tube.stl
+2025-04-10 11:52:48,152:INFO: Setting up trajectory i/o
+2025-04-10 11:52:48,152:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 11:52:48,152:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 11:52:48,152:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 11:52:48,152:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 11:52:48,152:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 11:52:48,152:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 11:52:48,152:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 11:52:48,152:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 11:52:48,152:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 11:52:48,152:INFO: Setting up printing options
+2025-04-10 11:52:48,152:INFO: Setting up integration scheme parameters
+2025-04-10 11:52:48,152:INFO: Integrating the system for 100000.0 steps
+2025-04-10 11:52:48,839:INFO: Setting up integration scheme parameters
+2025-04-10 11:52:48,839:INFO: Integrating the system for 10000.0 steps
+2025-04-10 11:54:02,339:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 11:54:02,359:INFO: Working in /home/bd8619/fluids/tube_test/DEM_flow
+2025-04-10 11:54:02,359:INFO: Creating i/o directories
+2025-04-10 11:54:02,359:INFO: Instantiated DEMPy object
+2025-04-10 11:54:02,359:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 11:54:02,359:INFO: Setting up problem dimensions and boundaries
+2025-04-10 11:54:02,359:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 11:54:02,359:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 11:54:02,360:INFO: Using 1 cores per simulation
+2025-04-10 11:54:02,360:DEBUG: Attempting to backup test.py file
+2025-04-10 11:54:02,360:INFO: Creating domain
+2025-04-10 11:54:02,360:INFO: Setting up interaction parameters
+2025-04-10 11:54:02,361:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 11:54:02,361:INFO: Setting up particles for group1
+2025-04-10 11:54:02,361:INFO: Setting up integration scheme parameters
+2025-04-10 11:54:02,361:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/silo.stl
+2025-04-10 11:54:02,364:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/tube.stl
+2025-04-10 11:54:02,367:INFO: Setting up trajectory i/o
+2025-04-10 11:54:02,368:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 11:54:02,368:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 11:54:02,368:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 11:54:02,368:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 11:54:02,368:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 11:54:02,368:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 11:54:02,368:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 11:54:02,368:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 11:54:02,368:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 11:54:02,368:INFO: Setting up printing options
+2025-04-10 11:54:02,368:INFO: Inserting particles for species 1
+2025-04-10 11:54:02,368:INFO: Setting up integration scheme parameters
+2025-04-10 11:54:02,368:INFO: Integrating the system for 100000.0 steps
+2025-04-10 11:55:16,335:INFO: Setting up integration scheme parameters
+2025-04-10 11:55:16,335:INFO: Integrating the system for 1000000.0 steps
+2025-04-10 12:04:51,331:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 12:04:51,356:INFO: Working in /home/bd8619/fluids/tube_test/DEM_flow
+2025-04-10 12:04:51,356:INFO: Creating i/o directories
+2025-04-10 12:04:51,357:INFO: Instantiated DEMPy object
+2025-04-10 12:04:51,357:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 12:04:51,357:INFO: Setting up problem dimensions and boundaries
+2025-04-10 12:04:51,357:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 12:04:51,357:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 12:04:51,357:INFO: Using 1 cores per simulation
+2025-04-10 12:04:51,357:DEBUG: Attempting to backup test.py file
+2025-04-10 12:04:51,357:INFO: Creating domain
+2025-04-10 12:04:51,359:INFO: Setting up interaction parameters
+2025-04-10 12:04:51,359:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 12:04:51,359:INFO: Setting up particles for group1
+2025-04-10 12:04:51,360:INFO: Setting up integration scheme parameters
+2025-04-10 12:04:51,360:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/silo.stl
+2025-04-10 12:04:51,363:INFO: Importing mesh from /home/bd8619/fluids/tube_test/mesh/tube.stl
+2025-04-10 12:04:51,367:INFO: Setting up trajectory i/o
+2025-04-10 12:04:51,367:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 12:04:51,367:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 12:04:51,367:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 12:04:51,367:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 12:04:51,367:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 12:04:51,367:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 12:04:51,367:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 12:04:51,368:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 12:04:51,368:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 12:04:51,368:INFO: Setting up printing options
+2025-04-10 12:04:51,368:INFO: Inserting particles for species 1
+2025-04-10 12:04:51,368:INFO: Setting up integration scheme parameters
+2025-04-10 12:04:51,368:INFO: Integrating the system for 100000.0 steps
+2025-04-10 12:49:49,876:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 12:49:50,030:INFO: Working in /home/bd8619/fluids/tube_short_sim/DEM_flow
+2025-04-10 12:49:50,030:INFO: Creating i/o directories
+2025-04-10 12:49:50,030:INFO: Instantiated DEMPy object
+2025-04-10 12:49:50,030:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 12:49:50,049:INFO: Setting up problem dimensions and boundaries
+2025-04-10 12:49:50,050:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 12:49:50,050:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 12:49:50,050:INFO: Using 1 cores per simulation
+2025-04-10 12:49:50,050:DEBUG: Attempting to backup test.py file
+2025-04-10 12:49:50,051:INFO: Creating domain
+2025-04-10 12:49:50,058:INFO: Setting up interaction parameters
+2025-04-10 12:49:50,061:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 12:49:50,061:INFO: Setting up particles for group1
+2025-04-10 12:49:50,064:INFO: Setting up integration scheme parameters
+2025-04-10 12:49:50,065:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/silo.stl
+2025-04-10 12:49:50,076:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/tube.stl
+2025-04-10 12:49:50,085:INFO: Setting up trajectory i/o
+2025-04-10 12:49:50,092:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 12:49:50,092:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 12:49:50,092:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 12:49:50,092:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 12:49:50,092:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 12:49:50,092:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 12:49:50,092:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 12:49:50,092:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 12:49:50,092:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 12:49:50,092:INFO: Setting up printing options
+2025-04-10 12:49:50,092:INFO: Inserting particles for species 1
+2025-04-10 12:49:50,093:INFO: Setting up integration scheme parameters
+2025-04-10 12:49:50,093:INFO: Integrating the system for 100000.0 steps
+2025-04-10 12:52:18,188:INFO: Setting up integration scheme parameters
+2025-04-10 12:52:18,188:INFO: Integrating the system for 1000000.0 steps
+2025-04-10 14:18:29,328:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 14:18:29,372:INFO: Working in /home/bd8619/fluids/tube_short_sim/DEM_flow
+2025-04-10 14:18:29,373:INFO: Creating i/o directories
+2025-04-10 14:18:29,373:INFO: Instantiated DEMPy object
+2025-04-10 14:18:29,373:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 14:18:29,374:INFO: Setting up problem dimensions and boundaries
+2025-04-10 14:18:29,374:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 14:18:29,374:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 14:18:29,374:INFO: Using 1 cores per simulation
+2025-04-10 14:18:29,375:DEBUG: Attempting to backup test.py file
+2025-04-10 14:18:29,376:INFO: Creating domain
+2025-04-10 14:18:29,377:INFO: Setting up interaction parameters
+2025-04-10 14:18:29,377:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 14:18:29,378:INFO: Setting up particles for group1
+2025-04-10 14:18:29,378:INFO: Setting up integration scheme parameters
+2025-04-10 14:18:29,378:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/silo.stl
+2025-04-10 14:18:29,387:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/tube.stl
+2025-04-10 14:18:29,395:INFO: Setting up trajectory i/o
+2025-04-10 14:18:29,396:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 14:18:29,396:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 14:18:29,396:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 14:18:29,396:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 14:18:29,396:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 14:18:29,396:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 14:18:29,396:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 14:18:29,396:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 14:18:29,396:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 14:18:29,396:INFO: Setting up printing options
+2025-04-10 14:18:29,396:INFO: Inserting particles for species 1
+2025-04-10 14:18:29,397:INFO: Setting up integration scheme parameters
+2025-04-10 14:18:29,397:INFO: Integrating the system for 100000.0 steps
+2025-04-10 14:20:54,364:INFO: Setting up integration scheme parameters
+2025-04-10 14:20:54,365:INFO: Integrating the system for 10000.0 steps
+2025-04-10 14:37:44,375:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 14:37:44,427:INFO: Working in /home/bd8619/fluids/tube_short_sim/DEM_flow
+2025-04-10 14:37:44,427:INFO: Creating i/o directories
+2025-04-10 14:37:44,428:INFO: Instantiated DEMPy object
+2025-04-10 14:37:44,428:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 14:37:44,429:INFO: Setting up problem dimensions and boundaries
+2025-04-10 14:37:44,429:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 14:37:44,429:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 14:37:44,430:INFO: Using 1 cores per simulation
+2025-04-10 14:37:44,430:DEBUG: Attempting to backup test.py file
+2025-04-10 14:37:44,430:INFO: Creating domain
+2025-04-10 14:37:44,431:INFO: Setting up interaction parameters
+2025-04-10 14:37:44,432:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 14:37:44,432:INFO: Setting up particles for group1
+2025-04-10 14:37:44,432:INFO: Setting up integration scheme parameters
+2025-04-10 14:37:44,433:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/silo.stl
+2025-04-10 14:37:44,438:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/tube.stl
+2025-04-10 14:37:44,458:INFO: Setting up trajectory i/o
+2025-04-10 14:37:44,458:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 14:37:44,458:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 14:37:44,459:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 14:37:44,459:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 14:37:44,459:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 14:37:44,459:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 14:37:44,459:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 14:37:44,459:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 14:37:44,459:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 14:37:44,459:INFO: Setting up printing options
+2025-04-10 14:37:44,459:INFO: Inserting particles for species 1
+2025-04-10 14:37:44,462:INFO: Setting up integration scheme parameters
+2025-04-10 14:37:44,462:INFO: Integrating the system for 100000.0 steps
+2025-04-10 14:40:14,830:INFO: Setting up integration scheme parameters
+2025-04-10 14:40:14,830:INFO: Integrating the system for 100000.0 steps
+2025-04-10 14:58:09,737:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 14:58:09,760:INFO: Working in /home/bd8619/fluids/tube_short_sim/DEM_flow
+2025-04-10 14:58:09,760:INFO: Creating i/o directories
+2025-04-10 14:58:09,760:INFO: Instantiated DEMPy object
+2025-04-10 14:58:09,760:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 14:58:09,760:INFO: Setting up problem dimensions and boundaries
+2025-04-10 14:58:09,760:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 14:58:09,761:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 14:58:09,761:INFO: Using 1 cores per simulation
+2025-04-10 14:58:09,761:DEBUG: Attempting to backup test.py file
+2025-04-10 14:58:09,761:INFO: Creating domain
+2025-04-10 14:58:09,761:INFO: Setting up interaction parameters
+2025-04-10 14:58:09,761:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 14:58:09,762:INFO: Setting up particles for group1
+2025-04-10 14:58:09,762:INFO: Setting up integration scheme parameters
+2025-04-10 14:58:09,762:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/silo.stl
+2025-04-10 14:58:09,765:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/tube.stl
+2025-04-10 14:58:09,776:INFO: Setting up trajectory i/o
+2025-04-10 14:58:09,776:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 14:58:09,776:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 14:58:09,776:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 14:58:09,776:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 14:58:09,776:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 14:58:09,776:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 14:58:09,776:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 14:58:09,776:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 14:58:09,777:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 14:58:09,777:INFO: Setting up printing options
+2025-04-10 14:58:09,777:INFO: Inserting particles for species 1
+2025-04-10 14:58:09,777:INFO: Setting up integration scheme parameters
+2025-04-10 14:58:09,777:INFO: Integrating the system for 100000.0 steps
+2025-04-10 14:59:34,495:INFO: Setting up integration scheme parameters
+2025-04-10 14:59:34,495:INFO: Integrating the system for 100000.0 steps
+2025-04-10 15:07:05,602:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so for DEM computations
+2025-04-10 15:07:05,652:INFO: Working in /home/bd8619/fluids/tube_short_sim/DEM_flow
+2025-04-10 15:07:05,652:INFO: Creating i/o directories
+2025-04-10 15:07:05,652:INFO: Instantiated DEMPy object
+2025-04-10 15:07:05,652:INFO: Using /home/bd8619/pygran/LIGGGHTS-PUBLIC/src/libliggghts.so as a shared library for DEM computations
+2025-04-10 15:07:05,653:INFO: Setting up problem dimensions and boundaries
+2025-04-10 15:07:05,653:INFO: Initializing simulation with PyGranSim version v1.1.0
+2025-04-10 15:07:05,653:INFO: Initializing MPI for a total of 1 cores
+2025-04-10 15:07:05,653:INFO: Using 1 cores per simulation
+2025-04-10 15:07:05,654:DEBUG: Attempting to backup test.py file
+2025-04-10 15:07:05,654:INFO: Creating domain
+2025-04-10 15:07:05,655:INFO: Setting up interaction parameters
+2025-04-10 15:07:05,655:INFO: Setting up nearest neighbor searching parameters
+2025-04-10 15:07:05,655:INFO: Setting up particles for group1
+2025-04-10 15:07:05,656:INFO: Setting up integration scheme parameters
+2025-04-10 15:07:05,656:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/silo.stl
+2025-04-10 15:07:05,661:INFO: Importing mesh from /home/bd8619/fluids/tube_short_sim/mesh/tube.stl
+2025-04-10 15:07:05,674:INFO: Setting up trajectory i/o
+2025-04-10 15:07:05,675:INFO: Creating property youngsModulus with args youngsModulus peratomtype 10000000.0 63000000000.0 63000000000.0
+2025-04-10 15:07:05,675:INFO: Creating property poissonsRatio with args poissonsRatio peratomtype 0.25 0.24 0.24
+2025-04-10 15:07:05,675:INFO: Creating property coefficientFriction with args coefficientFriction peratomtypepair 3 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+2025-04-10 15:07:05,675:INFO: Creating property coefficientRollingFriction with args coefficientRollingFriction peratomtypepair 3 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+2025-04-10 15:07:05,675:INFO: Creating property cohesionEnergyDensity with args cohesionEnergyDensity peratomtypepair 3 0.0 0.0 0.0 0.0 0.05 0.05 0.0 0.05 0.05
+2025-04-10 15:07:05,675:INFO: Creating property coefficientRestitution with args coefficientRestitution peratomtypepair 3 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+2025-04-10 15:07:05,675:INFO: Creating property coefficientRollingViscousDamping with args coefficientRollingViscousDamping peratomtypepair 3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+2025-04-10 15:07:05,675:INFO: Creating property yieldPress with args yieldPress peratomtype 2200000.0 62000000000.0 62000000000.0
+2025-04-10 15:07:05,675:INFO: Creating property characteristicVelocity with args characteristicVelocity scalar 0.1 0.1 0.1
+2025-04-10 15:07:05,675:INFO: Setting up printing options
+2025-04-10 15:07:05,675:INFO: Inserting particles for species 1
+2025-04-10 15:07:05,676:INFO: Setting up integration scheme parameters
+2025-04-10 15:07:05,676:INFO: Integrating the system for 100000.0 steps
+2025-04-10 15:08:46,625:INFO: Setting up integration scheme parameters
+2025-04-10 15:08:46,625:INFO: Integrating the system for 1000000.0 steps
